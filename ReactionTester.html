@@ -1,0 +1,61 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Learning Javascript</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+   <style type="text/css">
+        body{
+            font-family: Verdana, Geneva, sans-serif;
+        }
+    .bold{
+        font-weight: bold;
+    }
+        #box{
+            width:200px;
+            height: 200px;
+            display: none;
+            position: relative;
+        }
+        #circle{
+            width: 200px;
+            height: 200px;
+            border-radius: 100px;
+            background-color: rgb(80,200,20);
+            display: none;
+        }
+        #triangle{
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 0 100px 100px 100px;
+            border-color: transparent transparent #007bff transparent;
+            display: none;
+        }
+        
+   </style>
+</head>    
+
+
+<body>
+    
+    <h1>Test your Reactions! </h1>
+    
+    <p>Click on the shapes as fast as you can!</p>
+    
+    <p class="bold">Your time: <span id="time">0</span>s</p>
+
+    <div id="box" ></div>
+    <div id="circle"></div>
+    <div id="triangle"></div>
+       
+    <script type="text/javascript" src="External-ReactionTester.js" ></script>
+
+    
+</body>
+</html>
+    
