@@ -1,0 +1,27 @@
+/* step 3 *?
+/*Basic Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/***** step 4 ****/
+#calculator{
+    width:325px;
+    height:auto;
+    
+    margin: 100px auto;
+    padding:20px;
+    
+    background-color: #9dd2ea;
+    border-radius: 5px;
+    
+}
+
+/***** step 5 *****/
+.keys span{
+    float: left;
+    
+    padding: -10px 10px 15px 10px;
+}

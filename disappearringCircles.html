@@ -1,0 +1,43 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Learning Javascript</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+   
+    <style>
+        
+        #circle{
+            border-radius: 100%;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(200,80,80);
+            margin:100px;
+            padding: 20px;
+            color: white;
+        }
+        
+    </style>
+   
+</head>    
+
+
+<body>
+
+    <div id="circle"><center>Click the<br/>Challenge<br/>Circle</center></div>
+    
+    <script type="text/javascript">
+        
+        document.getElementById("circle").onclick=function(){
+            
+            document.getElementById("circle").style.display="none";
+            
+        }
+        
+    </script>
+    
+</body>
+</html>
